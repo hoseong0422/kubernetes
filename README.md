@@ -1,4 +1,4 @@
-# GKE PoC 내용 정리
+# GKE PoC
 - [테스트 로거 이미지 생성 ( Python )](test_app/)
 - 쿠버네티스 로컬 환경 구성 ( Minikube )
 - Fluent-Bit 설치 ( Helm )
