@@ -8,7 +8,6 @@ TOPICS = [
     'test_topic_C',
     ]
 
-
 while True:
     TOPIC = choice(TOPICS)
         
