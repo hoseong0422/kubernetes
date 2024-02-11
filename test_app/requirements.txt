@@ -1,0 +1,1 @@
+json-logger-stdout == 1.1.5 
