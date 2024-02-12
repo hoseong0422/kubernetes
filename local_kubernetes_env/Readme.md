@@ -21,6 +21,7 @@
         helm install fluent-bit fluent/fluent-bit -f custom-values.yaml -n log-shipper
         ``` 
         - values 파일 경로 지정 및 namespace 지정 가능
+        - 컨테이너 쉘 접근을 위해 debug 이미지 사용
     - values 파일 수정후 배포된 fluent-bit upgrade
         ```
         helm upgrade fluent-bit fluent/fluent-bit -f custom-values.yaml -log-shipper
