@@ -1,0 +1,7 @@
+source:
+  repoURL: 'private-repo-url'
+  path: fluent-bit
+  targetRevision: HEAD
+  helm:
+    valueFiles:
+      - test-fluent-bit-values.yaml

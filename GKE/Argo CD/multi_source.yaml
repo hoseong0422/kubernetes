@@ -1,0 +1,10 @@
+sources:
+  - repoURL: >-
+      private-repo-url
+    ref: values
+  - repoURL: 'https://fluent.github.io/helm-charts'
+    targetRevision: 0.42.0
+    helm:
+      valueFiles:
+        - $values/test-fluent-bit-values.yaml
+    chart: fluent-bit
