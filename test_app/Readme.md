@@ -9,6 +9,11 @@
     ```
     docker run python-dummy-logger:0.0.1
     ```
+- minikube와 docker host 연결
+    ```
+    eval $(minikube -p minikube docker-env)
+    ```
+    - 연결하지 않은 상태로 생성된 이미지를 kubernetes에 배포하면 이미지 pull 실패하며 `ErrImagePUll` 에러 발생
 - docker 이미지를 이용해 kubernetes 배포
     ```
     kubectl create deployment python-dummy-logger --image=python-dummy-logger -n logging
